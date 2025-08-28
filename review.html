@@ -11,7 +11,7 @@ include('includes/dbconnection.php');?>
  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet.css">
 <meta name="google-site-verification" content="JpaRdNODN2zM-fb-tIxHiGKyMCXJXu8gl3aBUG3A4to" />
  <link rel="stylesheet" href="https://opensmile.shop.com">
-<title>opensmile.shop.com|review.html</title>
+<title>opensmileshop|review.html</title>
 <link rel="icon" href="img/chrisrathana.2.jpg">
 <!-- font awesome cdn link -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"="sha256:52daa192ed626504b8ae4d34a679339fdf8969baf810a10e61d717e2e318c76c"/>
@@ -39,10 +39,11 @@ include('includes/dbconnection.php');?>
      </nav>
      </ul>
      
-  <div class="icons">
-    <a href="#" class="fas fa-shopping-cart"></a>
-    <a href="#" class="fas fa-user"></a>
-  </div>
+<div class="icons">
+<a href="#" class="fas fa-heart"></a>
+<a href="sipping.html" class="fas fa-shopping-cart"></a>
+<a href="Longin.html" class="fas fa-user"></a>
+</div>
   
   </header>
 <!-- header section ends -->
@@ -136,7 +137,18 @@ required ></textarea>
 <a href="#"><i class="fab fa-tiktok"></i></a>
 </div>
 </footer>
-
+<script>
+$(document).ready(function()
+    $("#Invalid-URL").on("click", function(){
+        $(". button").slideToggle().toggleClass("active");
+    });
+});
+</script>     
+<script>
+    function subscribe() {
+      alert("អរគុណសម្រាប់ការជាវប្រចាំ!");
+  }
+</script>
 </body>
 </div></div></div></div></div></div></head></div></div></div></div></div></body>
 </html>
