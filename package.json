@@ -2,7 +2,7 @@
   "dependencies": {
     "debug": "^4.4.1"
   },
-  "name": "opensmlie.shop.com",
+  "name": "dns.smloshop.store.in",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
@@ -12,5 +12,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "https://dns.smloshop.store.in"
 }
