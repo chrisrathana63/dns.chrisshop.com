@@ -5,24 +5,30 @@
 
 version: 2
 updates:
-  # For Node.js/React frontend
+  # NPM (Frontend / Node.js)
   - package-ecosystem: "npm"
-    directory: "/" # ទីតាំង package.json
+    directory: "/"
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 10
 
-  # For Java backend (Maven)
+  # Maven (Java backend)
   - package-ecosystem: "maven"
-    directory: "/" # ទីតាំង pom.xml
+    directory: "/"
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 10
-    
-    # Enable version updates for Docker
-  - package-ecosystem: "docker"
-    # Look for a `Dockerfile` in the `root` directory
+
+  # Gradle (Java/Kotlin backend)
+  - package-ecosystem: "gradle"
     directory: "/"
-    # Check for updates once a week
     schedule:
       interval: "weekly"
+    open-pull-requests-limit: 10
+
+  # Docker (Container images)
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
