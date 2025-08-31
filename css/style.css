@@ -186,7 +186,6 @@ a.fas.fa-heart:hover {
   transform: scale(1.1);
   box-shadow: 0 6px 18px rgba(0,0,0,0.2);
 }
-
 /* បន្ថែម effect beating animation */
 @keyframes heartbeat {
   0%   { transform: scale(1); }
@@ -645,6 +644,7 @@ object-fit: cover;  /* កាត់/បំពេញឲ្យស្រប */
 }
 .review-form button:hover {
   background-color: 2b08968;
+}
 /* contact us section */
 .contact{
  display: flex;
