@@ -725,14 +725,16 @@ footer {
   margin:0 10px;
   display:inline-block;
 }
-.social-icons a li {
-  margin: 0 15px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #ffd26a;
+.social-icons i {
+  font-size: 32px; /* កំណត់ទំហំ (ធំជាងធម្មតា) */
+  margin: 10px;    /* ចន្លោះរវាង icon */
+  color: #333;     /* ពណ៌ (អាចផ្លាស់បាន) */
+  transition: transform 0.3s ease;
 }
-.social-icons a:hover { 
-  color: #d4a373;
+
+.social-icons i:hover {
+  transform: scale(1.2); /* ពង្រីកបន្តិចពេល hover */
+  color: #007bff;        /* ប្ដូរពណ៌ពេល hover */
 }
 .social-icons:item {
   width: 20;
