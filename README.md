@@ -1,4 +1,4 @@
-# opensmile.shop.com website Deployment
+# smlieshop.store.in website Deployment
 
 ## 🚀 Quick Deploy with Token
 
@@ -13,8 +13,8 @@
 # deploy_web_Token.sh
 # Script to deploy website with API Token to Google Cloud Run
 
-PROJECT_ID="opensmile.shop.com"
-SERVICE_NAME="opensmile-web"
+PROJECT_ID="smlieshop.store.in"
+SERVICE_NAME="smlieshop.store.in-web"
 REGION="asia-southeast1"
 API_TOKEN_VALUE="YourSecretTokenHere"
 
