@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "debug": "^4.4.1"
+    "debug": "^4.4.3"
   },
   "name": "dns.smloshop.store.in",
   "version": "1.0.0",
