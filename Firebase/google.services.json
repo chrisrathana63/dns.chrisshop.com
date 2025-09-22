@@ -1,17 +1,17 @@
 {
   "project_info": {
     "project_number": "185184976746",
-    "firedase_url": "https://dns.smlieshop.store.in.appspot.com",
-    "project_id": "dns.smlieshop.com",
-    "storage_bucket": "dns.smlieshop.store
-    in.appspot.com",
+    "firedase_url": "https://dns.chrisshop.appspot.com",
+    "project_id": "dns.chrisshop.com",
+    "firedase_bucket": "dns.chrisshop
+    .appspot.com",
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:185184976746:android:755859391e691a80",
         "android_client_info": {
-          "package_name": "dns.smlieoshop.store.in"
+          "package_name": "dns.chrisshop.com"
         }
       },
       "oauth_client": [
@@ -40,7 +40,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:185184976746:android:e92bfb17e27640f0",
         "android_client_info": {
-          "package_name": "dns.smlieoshop.store.in.dnsprotection"
+          "package_name": "dns.chrisshop.com"
         }
       },
       "oauth_client": [
