@@ -1,7 +1,7 @@
 {
-    "name": "dns.smlieshop.store.in",
+    "name": "dns.chrisshop.com",
     "version": "1.0.0",
-    "description": "A simple e-commerce project for opensmile.shop.com",
+    "description": "A simple e-commerce project for dns.chrisshop.com",
     "main": "index.js",
     "scripts": {
      "start": "node index.js",
@@ -13,7 +13,7 @@
     "license": "ISC",
     "repository": {
      "type": "git",
-     "url": "git@github.com:rathanachris/dns.smlieshop.store.in"
+     "url": "git@github.com: chrisrathana63/dns.chrisshop.com.git"
  },
     "dependencies": {
     "debug": "^4.4.1"
