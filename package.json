@@ -3,14 +3,14 @@
     "debug": "^4.4.1"
   },
   "name": "dns.chrisshop.com",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
+    "version": "1.0.0",
+    "main": "index.js",
+    "devDependencies": {},
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "https://www.dns.chrisshop.com"
+    "author": "",
+    "license": "ISC",
+    "description": "https://www.dns.chrisshop.com"
 }
