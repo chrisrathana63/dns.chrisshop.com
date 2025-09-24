@@ -4,7 +4,7 @@ self.addEventListener("install", (event) => {
       .open("v1")
       .then((cache) =>
         cache.addAll([
-          "/",
+          "/wedpag",
           "/index.html",
           "/style.css",
           "/app.js",
