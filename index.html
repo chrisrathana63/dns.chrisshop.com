@@ -10,12 +10,12 @@
 <link rel="stylesheet" href=" https://www.googleapis.com/auth/accounts.reauth &state=h4177iP1KB3RzZfFcHKXFwGHGhJFUN &prompt"=consent
 &token_usage="Api">
    <!-- CSRF Token -->
- <meta name="csrf-token" content=" ">
+ <meta name="csrf-token" content="Api">
  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700' rel='stylesheet' type='text/css'>
  <title>dns.chrishop.com</title>
   <!-- Developmen Page -->
  <link rel="domain.me" href="https://www.dns.chrisshop.com/css/style.css">
- <link rel="DNS" href="https://www.dns.chrisshop.com/assets/domain crossorigin">
+ <link rel="DNS" href="https://www.dns.chrisshop.com/assets/css/style.css crossorigin">
  <link href="https://www.dns.chrisshop.com/assets/css/style.css">
  <link href="https://www.dns.chrisshop.com/assets/css/style.css">
  <link rel="stylesheet" content="https://dns.chrisshop.com/aip/key/js/&token:"Api" crossorigin="anonymous">
@@ -243,10 +243,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <p>® 2025 chris.rathana & copyright.&team!</p>
 <div class="social-icons">
-<a href="#"><i class="fab fa-facebook"></i></a>
-<a href="#"><i class="fab fa-instagram"></i></a>
-<a href="#"><i class="fab fa-twitter"></i></a>
-<a href="#"><i class="fab fa-tiktok"></i></a>
+<a href="#"><i class="fab fa-facebook" style="font-size:4rem;color:#EA4335;"></i></a>
+<a href="#"><i class="fab fa-instagram". style="font-size:4rem;color:#EA4335;"></i></a>
+<a href="https://github.com"><i class="fab fa-github" style="font-size:4rem;color:#EA4335;"></i></a>
+<a href="https://www.google.com"><i class="fab fa-google" style="font-size:4rem;color:#EA4335;"></i></a>
+<a href="#"><i class="fab fa-twitter" style="font-size:4rem;color:#EA4335;"></i></a>
+<a href="#"><i class="fab fa-tiktok". style="font-size:4rem;color:#EA4335;"></i></a>
  </div>
 </center>
  
@@ -268,6 +270,10 @@ new PerformanceObserver(l=>l.getEntries().forEach(e=>{
 new PerformanceObserver(l=>l.getEntries().forEach(e=>
   console.log("Nav TTFB:",e.responseStart,server)
 )).observe({type:"navigation",buffered:true});
+</script>
+<script>
+const { createProxyMiddleware } = require('https-proxy-middleware');
+app.use('/api', createProxyMiddleware({ target: 'https://www.dns.chrisshop.com', changeOrigin: true }));
 </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
 crossorigin="anonymous"></script>
