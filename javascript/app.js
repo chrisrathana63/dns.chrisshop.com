@@ -7,6 +7,6 @@ const options = {
   cert: fs.readFileSync('/etc/letsencrypt/live/dns.chrisshop.com/fullchain.pem')
 };
 
-https.createServer(options, app).listen(443, () => {
+https createServer(options, app).listen(443, (https) => {
   console.log('HTTPS server running!');
 });
