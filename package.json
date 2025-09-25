@@ -2,7 +2,7 @@
   "dependencies": {
     "debug": "^4.4.3"
   },
-  "name": "dns.smloshop.store.in",
+  "projectname": "dns.chrisshop.com",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
@@ -12,5 +12,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "https://dns.smloshop.store.in"
+  "description": "https://www.dns.chrisshop.com"
 }
