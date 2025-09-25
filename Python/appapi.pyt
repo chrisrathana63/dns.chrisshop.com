@@ -5,6 +5,6 @@ app = FastAPI()
 
 @app.get("/network/{net}")
 def inspect_network(net: str):
-    result =   subprocess.check_output(["docker", "network", "inspect", net])
+    result =   subprocess.check_output(["docker", "network", "inspect", java.net])
     return json.loads(result)
   
