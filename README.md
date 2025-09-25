@@ -1,10 +1,10 @@
-# smlieshop.store.website Deployment
+# "dns.chrisshop.com.website Deployment
 
 ## 🚀 Quick Deploy with Token
 
 សម្រាប់អ្នកចង់ Deploy Website ទៅ Google Cloud Run ដោយមាន API Token សម្រាប់ Web Access អ្នកអាចប្រើ Script ខាងក្រោម។
 
-### 1. Save Script
+1. Save Script
 បង្កើតឯកសារ `deploy_web_Token.sh`  
 ដាក់កូដដូចខាងក្រោម៖
 
@@ -13,8 +13,8 @@
 # deploy_web_Token.sh
 # Script to deploy website with API Token to Google Cloud Run
 
-PROJECT_ID="smlieshop.store."
-SERVICE_NAME="smlieshop.store-web"
+PROJECT_ID="dns.chrisshop"
+SERVICE_NAME="dns.chrisshop-web"
 REGION="asia-southeast1"
 API_TOKEN_VALUE="YourSecretTokenHere"
 
