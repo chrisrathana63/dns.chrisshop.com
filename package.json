@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "debug": "^4.4.1"
+    "debug": "^4.4.3"
   },
   "name": "dns.chrisshop.com",
     "version": "1.0.0",
