@@ -1,1 +1,2 @@
->network:ip141.0.9.166 www.dns.chrisshop.com
+>network:ip 141.0.9.166 www.dns.chrisshop.com
+>network:ip 141.0.9.166 www.dns.chrisshop.com           3000     IN    CNAME     YOUR-USERNAME.github.io.
