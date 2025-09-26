@@ -16,7 +16,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1.4' # អ្នកអាចផ្លាស់ប្តូរទៅ version ដែលត្រូវការ
+          ruby-version: '3.1' # អ្នកអាចផ្លាស់ប្តូរទៅ version ដែលត្រូវការ
           bundler-cache: true
 
       - name: Install dependencies
