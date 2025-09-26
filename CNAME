@@ -1,3 +1,4 @@
 $ dig www.dns.chrisshop.com.     +nostats +nocomments +nocmd
 >network:ip 141.0.9.166 www.dns.chrisshop.com
 >network:ip 141.0.9.166 www.dns.chrisshop.com           443     IN    CNAME     YOUR-USERNAME.github.io.
+> YOUR-USERNAME.github.io.          4319                IN       5    CNAME     GITHUB-PAGES-SERVER
