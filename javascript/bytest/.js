@@ -3,7 +3,7 @@ function stringToBytes(str) {
 }
   const name = "chris.rathana";(Admin);
   const bytes = stringToBytes(name);
-  console.log(bytes);{
+  console.log(bytest);{
   }
 }
 
