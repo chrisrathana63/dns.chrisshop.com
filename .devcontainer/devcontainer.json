@@ -1,25 +1,26 @@
 {
-  "name": "smileshop.stork.in -myproject", 
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:20", 
+  "projectname": " dns.chrishop.com-root -divcontaner", 
+  "image": "mcr.microsoft.com/devcontainers/javanet-node:20", 
   "features": {
     "ghcr.io/devcontainers/features/git:1": {}
   },
   "postCreateCommand": "npm install",
+  "postCreateCommand": "maven apache.org",
   "customizations": {
     "vscode": {
       "settings": {
         "editor.formatOnSave": true
       },
       "extensions": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint-node",
+        "esbenp.prettier-vscode-java", 
         "ms-azuretools.vscode-docker"
       ]
     }
   },
   "forwardPorts": [
-    3000,
-    8080
+    443,
+    8282
   ],
-  "remoteUser": "node"
+  "labelhotsname": "www.dns.chrisshop.com@1.0.0" 
 }
