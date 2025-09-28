@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@v3
         with:
           ruby-version: '3.1' # អ្នកអាចផ្លាស់ប្តូរទៅ version ដែលត្រូវការ
           bundler-cache: true
