@@ -1,5 +1,5 @@
 $ dig www.dns.chrisshop.com/domain          +nostats    +nocomments     +nocmd
-> network:ip 141.0.9.166 www.Api.chrisshop.com          hostname [0.0.0.0].80    (public ip)
-> network:ip 141.0.9.166 www.dns.chrisshop.com     lacl     443     IN    CNAME     YOUR-USERNAME.github.io.
-> YOUR-USERNAME.github.io.                                  4319                         IN      5     CNAME     GITHUB-PAGES-SERVER
-> GITHUB-PAGES-SERVER                                       22                           IN      A               192.0.2.1
+> network:ip 23.48.249.191   www.Api.chrisshop.com          hostname [8.8.8.8].[8.4.8.4]    (public ip)
+> network:ip 23.48.249.191   www.dns.chrisshop.com    lacl     443     IN    CNAME         YOUR-USERNAME.github.io.
+> YOUR-USERNAME.github.io.                                     4319                           IN      5     CNAME     GITHUB-PAGES-SERVER
+> GITHUB-PAGES-SERVER                                           22                           IN      A               192.0.2.1
