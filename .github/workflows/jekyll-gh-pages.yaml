@@ -3,7 +3,7 @@ name: Deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-      - main   # ផ្លាស់ប្តូរទៅ branch ដែលអ្នកប្រើ (ឧ. master)
+      - master   # ផ្លាស់ប្តូរទៅ branch ដែលអ្នកប្រើ (ឧ. master)
 
 jobs:
   build-deploy:
