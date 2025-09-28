@@ -1,3 +1,3 @@
-> location 11,5224781, 104,8864890. Asian [0.0.0.0] www.dns.chrisshop.com Post:443
-> network:ip 141.0.9.166 www.Api.chrisshop.com.    iN     hostname [0.0.0.0].80    (public)
-> network:ip 141.0.9.166 www.dns.chrisshop.com.    iN     domain   [8.8.8.8] [8.4.8.8]  
+> location  Asian [0.0.0.0] www.dns.chrisshop.com   443
+> network:ip 23.48.249.191  www.Api.chrisshop.com    iN     hostname [0.0.0.0].80 (public)
+> network:ip 23.48.249.191  www.dns.chrisshop.com    iN     domain   [8.8.8.8] [8.4.8.8]  
