@@ -1,5 +1,5 @@
 $ dig www.dns.chrisshop.com/domain/master          +nostats    +nocomments     +nocmd
-> network.net 116.202.176.26    ns1www.Api.chrisshop.com          hostname chrisrathana [8.8.8.8].[8.4.8.4]    (private ip) catacary 
-> route.net 192.0.2.1           ns2www.dns.chrisshop.com    hosts    443     IN    CNAME         YOUR-USERNAME.github.io.
-> YOUR-USERNAME.github.io.                                           4319                          IN      5     CNAME     GITHUB-PAGES-SERVER
-> GITHUB-PAGES-SERVER                                                22                            IN      A               192.0.2.1
+> route.net 116.202.176.26      ns1www.Api.chrisshop.com          hostname chrisrathana [8.8.8.8].[8.4.8.4]  (public) catacary 
+> route.net 192.0.2.1           ns2www.dns.chrisshop.com   host      885     IN    CNAME         YOUR-USERNAME.github.io.
+> YOUR-USERNAME.github.io.                                          4319                           IN      5     CNAME     GITHUB-PAGES-SERVER
+> GITHUB-PAGES-SERVER                                                 22                           IN      A               192.0.2.1
