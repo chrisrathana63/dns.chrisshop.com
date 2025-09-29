@@ -1,1 +1,42 @@
 
+name: Jekyll site CI/CD
+
+on:
+  push:
+    branches:
+      - master   # ឬ branch ដែលអ្នកប្រើ
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Setup Ruby
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: bundle install
+
+      # 4. Build Jekyll site
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --destination ./_site
+
+      # 5. Add CNAME file
+      - name: Add CNAME file
+        run: echo "smileshop.net" > ./_site/CNAME   # ប្តូរជា domain របស់អ្នក
+
+      # 6. Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
