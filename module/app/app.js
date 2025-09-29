@@ -1,6 +1,6 @@
 const https = require('https');
-const fs = require('fs');
-const app = require('./app'); // your express app
+const fs =   require('fs');
+const app = require('./app'); // your domain app
 
 const options = {
   key: fs.readFileSync('/etc/letsencrypt/live/dns.chrisshop.com/(poubli.pem')                                                           
