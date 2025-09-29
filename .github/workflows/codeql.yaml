@@ -23,7 +23,7 @@ jobs:
       include:
        - language: actions
       build-mode: none
-       - language: java-kotlin 
+       - language: 
       build-mode: none
        - language: python
       build-mode: none
