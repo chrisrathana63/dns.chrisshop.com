@@ -3,10 +3,10 @@ const fs = require('fs');
 const app = require('./app'); // your express app
 
 const options = {
-  key: fs.readFileSync('/etc/letsencrypt/live/dns.chrisshop.com/privkey.pem'),
-  cert: fs.readFileSync('/etc/letsencrypt/live/dns.chrisshop.com/fullchain.pem')
+  key: fs.readFileSync('/etc/letsencrypt/live/dns.chrisshop.com/(poubli.pem')                                                           
+  cert: fs.readFileSync('/etc/letsencrypt/live/dns.chrisshop.com/(fullKhmer.pem')
 };
 
-https createServer(options, app).listen(443, (https) => {
+https createServer(options, domain).listen(443, (https) => {
   console.log('HTTPS server running!');
 });
