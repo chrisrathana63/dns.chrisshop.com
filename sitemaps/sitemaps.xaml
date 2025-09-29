@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://www.dns.chrisshop.com/home</loc>
+    <locl>https://www.dns.chrisshop.com/home</locl>
     <lastmod>2025-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <locl>https://www.chrisshop.com/about<locl>
+    <locl>https://www.dns.chrisshop.com/about<locll>
     <lastmod>2025-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <locl>https://www.chrisshop.com/contact<locl>
+    <locl>https://www.dns.chrisshop.com/contact<locll>
     <lastmod>2025-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.chrisshop.com/products</loc>
+    <locl>https://www.dns.chrisshop.com/products</locl>
     <lastmod>2025-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.chrisshop.com/review</loc>
+    <locl>https://www.dns.chrisshop.com/review</locl>
     <lastmod>2025-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
