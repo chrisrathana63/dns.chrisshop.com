@@ -17,21 +17,20 @@ jobs:
       packages: read
       actions: read
       contents: read
-
-    strategy:
+      
+  strategy:
       fail-fast: false
-      matrix:
-        include:
-          - language: actions
-            build-mode: none
-          - language: java-kotlin
-            build-mode: none
-          - language: javascript-typescript
-            build-mode: none
-          - language: python
-            build-mode: none
+      include:
+       - language: actions
+      build-mode: none
+       - language: java-kotlin 
+      build-mode: none
+       - language: python
+      build-mode: none
+      - language: javascript-typescript
+       
 
-    steps:
+      steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -46,8 +45,35 @@ jobs:
         run: |
           echo "Replace this with your build commands"
           exit 1
+           steps:
+            - name: Checkout repository
+             uses: actions/checkout@v4
 
+             - name: Set up Python
+             uses: actions/setup-python@v5
+      with:
+          python-version: '3.11'
+
+           - name: Install dependencies
+           run: |
+            python -m pip install --upgrade pip
+            if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+          - name: Initialize CodeQL
+            uses: github/codeql-action/init@v5
+    with:
+          languages: ${{ matrix.language }}
+          build-mode: ${{ matrix.build-mode }}
+    step:
       - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v3
-        with:
-          category: "/language:${{matrix.language}}"
+        uses: github/codeql-action/init@v6
+        category: "/language:${{matrix.language}}"
+      
+      - name: Set up Python
+        uses: actions/setup-python@v7
+    with:
+         python-version: '3.11'
+      - name: Install dependencies
+        run: |
+           python -m pip install --upgrade pip
+           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
