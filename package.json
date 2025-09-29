@@ -2,7 +2,7 @@
   "dependencies": {
     "debug": "^4.4.1"
   },
-  "name": "dns.chrisshop.com",
+  "project.name": "dns.chrisshop.com",
     "version": "1.0.0",
     "main": "index.js",
     "devDependencies": {},
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-    "author": "",
+    "author": "chris.rathana",
     "license": "ISC",
-    "description": "https://www.dns.chrisshop.com"
+    "description": "https://www.dns.chrisshop.com@1.0.0"
 }
