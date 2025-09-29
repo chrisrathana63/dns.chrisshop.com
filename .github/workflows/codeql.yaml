@@ -18,16 +18,17 @@ jobs:
       actions: read
       contents: read
       
-  strategy:
-      fail-fast: false
-      include:
-       - language: actions
+strategy:
+  fail-fast: false
+  include:
+    - language: actions
       build-mode: none
-       - language: 
+    - language: java-kotlin
       build-mode: none
-       - language: python
+    - language: python
       build-mode: none
-      - language: javascript-typescript
+    - language: javascript-typescript
+      build-mode: none
        
 
       steps:
