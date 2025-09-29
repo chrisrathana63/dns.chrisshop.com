@@ -1,11 +1,13 @@
 #######################################################
 #                                                     #
+#    Add your own additional hosts here!              #
 #                                                     #
+# Supports custom IP mapping, blacklist and whitelist #                                                 #
 #                                                     #
 #                                                     #
 #######################################################
 
 > Retry at: Mon Sep 29 07:09:01 GMT+07:00 2025  [Asia]   hostname chris  ns1www.chrisshop.com@1.0.0   443  hosts  DNS[0.0.0.0]:80 [8.2.8.2] catacary sho-pcom
-> chrhisshop.net 58.97.226.139  ns2www.Api.chrisshop.com@1.0.0 8282    hosts  NI  [0.0.0.0].80 (private)
-> javax.net 58.97.226.139     ns3www.dns.chrisshop.com@1.0.0  hosts NI  domain    [8.8.8.8] [8.4.8.8]  
+> chrhisshop.net 58.97.226.139  ns2www.Api.chrisshop.com@1.0.0 8282  hosts  NI  [0.0.0.0].80 (private)
+> javax.net 192.168.2.1 ns3www.dns.chrisshop.com@1.0.0  hosts NI  domain    [8.8.8.8] [8.4.8.8]  
 
