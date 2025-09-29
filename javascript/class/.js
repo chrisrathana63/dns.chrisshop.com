@@ -1,13 +1,20 @@
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches
-      .open("v1")
+      .open("v3")
       .then((cache) =>
         cache.addAll([
-          "/wedpag",
+          "/dns.chrishop.com",
           "/index.html",
+          "/about.html",
+          "/contact.html",
+          "/review.html",
+          "/send.html",
+          "/lonin.html",
           "/style.css",
           "/app.js",
+          "/node.js",
+          "/ssl/ste.ssl.js",
           "/image-list.js",
           "/avatar-logo.jpg",
           "/gallery/jpg",
@@ -34,7 +41,7 @@ self.addEventListener("fetch", (event) => {
           let responseClone = response.clone();
 
           caches
-            .open("v1")
+            .open("v3")
             .then((cache) => cache.put(event.request, responseClone));
           return response;
         })
