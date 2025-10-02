@@ -1,13 +1,14 @@
 #######################################################
-#                  cambodia                            #
-#       Add your own additional hosts here!           #
-#                   GIHUB                             #
+#                  cambodia                           #
+#      Add your own additional hosts here!            #
+#                   GIHUB.                            #
+#                   Google                            #
 # Supports public IP mapping, blacklist and whitelist #                                                 
-#    dns.chrisshop.com@noreply.github.com             #
-#                GITHUB-PAGES-SERVER                  #
+#             chris@dns.chrisshop.com                 #
+#               GITHUB-PAGES-SERVER                   #
 #######################################################
 
-> cambodia Phnom Penh:  Mon Sep 29 07:09:01 GMT+07:00 2025  [Asia1]   hostname chris  ns1www.chrisshop.com@1.0.0   443  hosts  DNS[0.0.0.0]:80 DNS[8.2.8.2] catacary sho-pcom
-> chrhisshop.net:ip 192.168.100.30     ns2www.Api.chrisshop.com@1.0.0          hosts  NI [0.0.0.0].80 DNS[8282]  (private)
-> java.net:ip 192.168.100.1    domain  ns2www.dns.chrisshop.com@1.0.0          hosts NI  [8.8.8.8] [8.4.8.8]  
+> cambodia Phnom Penh:  Mon Sep 29 07:09:01 GMT+07:00 2025  [Asia1]   hostname chris  ns1www.chrisshop.com   [443]  host  DNS1[0.0.0.0]:80 DNS2[8282] catacary sho-pcom
+> mobile.net:ip 192.168.100     ns2www.Api.chrisshop.com          host  NI  DNS1[0.0.0.0].80 DNS2[8282]  (public domain)
+> java.net:ip 192.168.100.1    domain  ns2www.dns.chrisshop.com   host  NI  DNS1[8.8.8.8] DNS2[8.4.4.8]  
 
